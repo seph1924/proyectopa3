@@ -1,0 +1,514 @@
+:root{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#contenido{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    z-index: 100;
+    top: 50%;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#principal img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    filter: brightness(60%);
+}
+
+#titulos{
+    text-align: center;
+}
+
+#titulos h1{
+    font-family: "Gasoek One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+    text-shadow: 3px 3px 6px #000000;
+}
+
+#titulos p{
+    font-family: "Kapakana", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 40px;
+    text-shadow: 3px 3px 6px #000000;
+}
+
+
+
+#menu{
+    width: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.248);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 3px 3px 60px #3b3a3a;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 20px;
+}
+
+#menu a{
+    margin: 10px;
+}
+#menu li{
+    margin: 10px;
+
+}
+
+#contenedor{
+    display: flex;
+    justify-content:center;
+}
+
+a{
+    text-decoration: none;  
+    color: inherit;  
+}
+
+#pie2{
+    background-color: #800000;
+}
+
+#pie2 i{
+    font-size: 30px;
+
+}
+address{
+    background-color: rgba(0, 0, 0, 0.315);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px #3b3a3a;
+    margin-bottom: 20px;
+
+
+    
+}
+address i{
+    margin: 5px;
+    font-size: 26px;
+}
+
+hr{
+    width: 1200px;
+    border: 1px solid white;    
+    background-color: rgb(221, 215, 215);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#blogpag{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+#menu2{
+    display: flex;
+    margin: 2px;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#menu2 a{
+    margin: 10px;
+}
+#menu2 li{
+    margin: 10px;
+
+}
+
+#contenido2{
+    position: relative;
+    top: 10px;
+    left: 0;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenedor2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#fundadores{
+    width: 850px;
+    margin: 10px;
+}
+
+#texto{
+    width: 850px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1{
+    font-family: "Gasoek One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#texto h1{
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#histo{
+    width: 450px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: #800000;
+
+}
+#portada{
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    align-items: center;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+#portada img{
+    width: 40px;
+}
+
+#inicc{
+    margin: 20px;
+    width: 700px;
+    text-align: justify;
+    font-family: "Rokkitt", serif;
+    font-optical-sizing: auto;
+    font-weight: 342;
+    font-style: normal;
+    font-size: 30px;
+
+}
+
+.parte{
+    width: 250px;
+}
+
+.parte img{
+    float: left;
+    margin: 20px;
+
+}
+
+
+#galere{
+    width: 1000px;
+
+}
+
+.linea img{
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+}
+
+.linea{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#pieimg{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#imsegun{
+    object-fit: cover;
+    object-position: center;
+}
+
+#pieimg p{
+    color: #800000;
+    font-style: italic;
+}
+
+.linea img{
+    filter: grayscale(55%) brightness(60%);
+    transition: filter 0.4s ease;
+
+}
+
+.hov:hover {
+  filter: none; /* vuelve al estado normal */
+}
+
+#pieimg div{
+    margin: 0px;
+    width: 300px;
+
+}
+
+#seccionvid{
+    width: 1000px;
+    margin: 20px;
+}
+
+#seccionvid h1{
+    text-align: center;
+}
+
+
+#vidriv p{
+    width: 400px;
+    margin: 30px;
+    font-family: "Rokkitt", serif;
+    font-optical-sizing: auto;
+    font-weight: 342;
+    font-style: normal;
+    font-size: 23px;
+    text-align: justify;
+}
+
+#vidriv{
+    display: flex;
+    margin: 20px;
+    
+}
+
+#contactdiv{
+    width: 1000px;
+    border: 1px rgb(46, 43, 43) solid;
+    margin: 20px;
+}
+
+#tablauno {
+
+    font-family: Arial, sans-serif;
+    max-width: 350px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#tablauno h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #800000;
+}
+
+#tablauno table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#tablauno th, #tablauno td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#tablauno th {
+    background-color: #800000;
+    color: white;
+    width: 30%;
+}
+
+#tablauno td {
+    color: #333;
+}
+
+#tablauno table tr{
+    border-bottom: none;
+}
+
+#tablauno img {
+    display: flex;
+    margin: 20px auto;
+    max-width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.54);
+}
+
+#contactdiv {
+    background: linear-gradient(135deg, #ffdbdb, #fff5f5);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+
+}
+
+#formuno{
+    margin: 20px;
+    max-width: 350px;
+
+    padding: 20px;
+}
+
+#mensj {
+    max-height: 90px;
+    min-height: 90px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    resize: vertical;
+    background-color: white;
+}
+
+#primpart{
+    display: flex;
+    justify-content: space-around;
+}
+
+#formuno {
+    width: 900px;
+    background: white;
+    margin: 40px;
+    border-radius: 16px;
+    font-family: Arial, sans-serif;
+
+}
+
+#formuno form {
+    display: flex;
+    flex-direction: column;
+}
+
+#formuno input[type="text"],
+#formuno input[type="tel"],
+#formuno input[type="email"],
+#formuno textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+#formuno input[type="submit"] {
+    background-color: #800000;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 350px;
+    cursor: pointer;
+
+
+}
+
+#formuno input[type="submit"]:hover {
+    background-color: #a10707;
+}
+
+#maps{
+    width: 600px;
+    margin: 20px auto;
+    border: 1px rgb(19, 12, 12) solid;
+    padding: 20px;
+    background-color: white;
+}
+
+#gridtext{
+    display: grid;
+    grid-template-areas: "cabecera cabecera cabecera"
+                            "texto texto portada"
+                            "imagen imagen portada"
+                            "pie pie pie";
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 19px;
+}
+
+#nosotroscabecera{
+    grid-area: cabecera;
+    background-color: #800000;
+    text-align: center;
+    color: white;
+}
+
+#nosotrostexto{
+    grid-area: texto;
+
+}
+
+#nosotrostexto h3{
+    color: #800000;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+#nosotrostexto p{
+    text-align: justify;
+    font-family: "Rokkitt", serif;
+    font-optical-sizing: auto;
+    font-weight: 342;
+    font-style: normal;
+    
+}
+
+#nosotrosportada{
+    grid-area: portada;
+}
+
+
+#nosotrospie{
+    grid-area: pie;
+    background-color: #800000;
+    color: white;
+    text-align: center;
+
+}
+
+
+.nospag{
+    border: 1px #800000 solid;
+    width: 100%;
+}
+
+#menu2 :hover{
+
+    color: #800000;
+    transition: 0.6s;
+}
